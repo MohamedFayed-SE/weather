@@ -1,0 +1,109 @@
+body{
+    box-sizing: border-box;
+}
+/*----------------------------- weather nav ------------------------*/
+
+body
+{
+    font-family: "Roboto", "Open Sans", sans-serif;
+    font-weight: 600;
+}
+.bg-test
+{
+    background-color: 	#1C2833;
+    
+}
+.navbar-nav .nav-item a
+{
+    color: white !important;
+    font-size: 16px;
+    margin-top: 8px;
+}
+.nav-item a  button
+{
+    border: none;
+
+    transition-property: color border ;
+    transition-duration: .5s;
+    padding: 1px 0;
+
+}
+.active button
+{
+    
+    border-radius: 15px;
+    border: #009ad8 2px solid !important;
+    color:#009ad8 ;
+    padding: 1px 0;
+    
+}
+.nav-item:hover a  button
+{
+    border: #009ad8 2px solid;
+    border-radius: 15px;
+    color:#009ad8 !important ;
+    margin: auto;
+    
+}
+/*-----------home search---------------------------------------------------------------*/
+
+.bg-gray
+{
+    background-color:rgb(220,220,220,.5);
+}
+.bg-gray2
+{
+    background-color:rgb(220,220,220,.8);
+
+}
+.ss
+{
+    background-color: #212F3C;
+}
+.ss2
+{
+    background-color:   rgba(33, 47, 60,.6);
+}
+
+.search-input .find-btn
+{
+    position: relative;
+    top: 5px;
+    right: 130px;
+}
+#temperatureOfCurrentDay
+{
+    font-size: 4rem !important;
+    color: white !important;
+}
+sub
+{
+    position: relative;
+    top: -10px;
+    left: 5px;
+}
+.sub-size
+{
+    font-size: 3rem;
+}
+.Next-temperature
+{
+    font-size: 30px;
+    color: white;
+}
+.bg-img
+{
+    background-image: url(../img/slideshow-2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: yellow;
+}
+/*-----------------Copy Right Section----------------------------------*/
+.icons .facebook button 
+{
+    border: solid 2px transparent;
+    border-radius: 50%;
+    background-color:#212F3C ;
+
+}
+
